@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.encabezado {
+    font-size: 2em; /* 200% */
+    text-align: center;
+    font-family: "Arial Black";
+    background-color: lightgreen;
+    color: white;
+    padding: 20px; /* Añadir más espacio alrededor del texto */
+    margin: 0;
+}
+
+.centrado {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.subtitulo {
+    font-family: "Arial Narrow";
+    font-size: 2em; /* 200% */
+    color: darkgreen;
+}
+
+.campoTexto {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em; /* 120% */
+}
+
+.boton {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2em; /* 120% */
+    background-color: #008CBA; /* Azul */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #005a80; /* Azul oscuro al pasar el mouse */
+}
